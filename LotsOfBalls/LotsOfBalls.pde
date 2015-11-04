@@ -26,6 +26,7 @@ void draw() {
   background(0);
   //draw ball
   for (int i=0;i<count;i++) {
+    fill(random(255),random(255),random(255));
     ellipse(x[i], y[i], diam[i], diam[i]);
     x[i] += velx[i];
     y[i] += vely[i];
